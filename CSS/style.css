@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+/* div,
+p {
+  line-height: unset;
+} */
+
 /* Header starts */
 header {
   /* width: 1300px;
@@ -87,7 +92,8 @@ h6 {
 
 .right-section h6,
 img,
-.culture-travel h6 {
+.culture-travel h6,
+.more-stories h6 {
   cursor: pointer;
 }
 
