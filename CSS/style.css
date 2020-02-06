@@ -5,8 +5,8 @@
 
 /* Header starts */
 header {
-  width: 1300px;
-  margin: 0 auto;
+  /* width: 1300px;
+  margin: 0 auto; */
   height: 95px;
   background-color: #ff0500;
   color: white;
@@ -36,22 +36,16 @@ header {
   padding: 0 10px;
 }
 
-.header-buttons button:last-child {
-  background-color: white;
+.subs-button {
   color: #ff0500;
-  border: 1px solid white;
   padding: 0 11px 0 15px;
-}
-
-.menu-icon {
-  display: none;
 }
 
 /* Header ends */
 
 /* Nav starts */
 nav {
-  width: 1300px;
+  /* width: 1300px; */
   margin: 0 auto;
 }
 
@@ -61,35 +55,87 @@ nav a {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 770px) {
+/* Nav ends */
+
+/* Main starts */
+h6 {
+  color: #a0a0a0;
+}
+
+.image-text {
+  position: relative;
+  display: inline-block;
+}
+
+.card-title {
+  position: absolute;
+  color: #f72210;
+  left: 0;
+  bottom: 0;
+  background-color: #e9e8e7;
+}
+
+.main-opinion-a {
+  color: black;
+  text-decoration: none;
+}
+
+.main-opinion-a:hover {
+  color: #ff0500;
+  text-decoration: none;
+}
+
+.right-section h6 {
+  cursor: pointer;
+}
+
+/* Main ends */
+
+@media only screen and (max-width: 576px) {
   /* Header starts */
   header {
     width: 100%;
     margin: 0 auto;
-    height: 50px;
+    height: 60px;
     background-color: #ff0500;
     color: white;
     padding: 10px;
   }
 
-  .header-date,
-  nav {
-    display: none;
-  }
-
   .header-logo {
-    height: 25px;
+    height: 30px;
     width: 150px;
-    margin-bottom: 5px;
-    margin-left: -10px;
+    margin-bottom: 9px;
   }
 
   .menu-icon {
     display: inline-block;
+    width: 30px;
   }
 
   /* Header ends */
 }
 
-@media only screen and (min-width: 771px) and (max-width: 1024px) {
+@media only screen and (min-width: 577px) and (max-width: 1000px) {
+  header {
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #ff0500;
+    color: white;
+    padding: 10px;
+  }
+
+  .header-logo {
+    height: 30px;
+    width: 150px;
+    margin-bottom: 9px;
+  }
+
+  .menu-icon {
+    display: inline-block;
+    width: 30px;
+  }
 }
+
+/* A partir de 1000 para abajo, desaparece el navbar  */

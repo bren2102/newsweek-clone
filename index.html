@@ -10,22 +10,25 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<body style="background-color: #f4f5f6;">
+<body class="container">
   <header class="d-flex justify-content-between flex-fill align-items-end">
-    <div class="header-date">
+    <div class="header-date d-none d-lg-block">
       Wed, Feb 05, 2020
     </div>
     <div class="header-logo">
     </div>
-    <div class="header-buttons ">
+    <div class="header-buttons d-flex align-items-center">
       <button class="border-0">SIGN IN</button>
-      <button class="d-inline-flex">SUSBSCRIBE 
+      <button class="d-inline-flex border border-white subs-button bg-white">SUSBSCRIBE 
         <i class="material-icons">keyboard_arrow_right</i>
       </button>
-      <i class="material-icons menu-icon">menu</i>
+      <a class="nav-link text-reset pl-0 d-flex d-lg-none align-items-center" href="#">
+        <i class="material-icons menu-icon pl-1">menu</i>
+      </a>
     </div>
   </header>
-  <nav class="navbar navbar-expand-sm bg-light border-bottom" style="background-color: #fff;">
+
+  <nav class="navbar navbar-expand-sm bg-light border-bottom d-none d-lg-flex container bg-white">
     <ul class="navbar-nav pl-0">
       <li class="nav-item border-right">
         <a class="nav-link text-reset pl-0" href="#">U.S.</a>
@@ -67,5 +70,162 @@
       </li>
     </ul>
   </nav>
+
+  <main class="container mt-3 bg-white">
+    <div class="row justify-content-between">
+      <section class="col pr-0">
+        <section>
+          <h6><strong>FEATURED STORIES</strong></h6>
+          <div class="image-text">
+            <div class="card-title p-2 m-0"><strong>WORLD</strong></div>
+            <img src="https://d.newsweek.com/en/full/1565335/us-military-nuclear-missile-test-launch.jpg?w=397&h=265&q=90&f=8bfcfb10e2758ebd1adc3b75bfbddac2" alt="Fires-img" class="img-fluid">
+          </div>
+          <p class="cardtext">
+            <a class="stretched-link text-reset" style="position: relative;" href="#">
+              <strong>U.S. Fires Long-Range Missile One Year Before Nuke Treaty with Russia Dies</strong>
+            </a>
+          </p>
+          <p class="cardtext">
+            The U.S. military conducted a nuclear-capable Minuteman III intercontinental ballistic missile test at Space Force site
+            one year ahead of the deadline to extend the New Strategic Arms Reduction Treaty (START).
+          </p>
+        </section>
+      </section>
+      <!-- Middle-Section -->
+      <section class="col-5">
+        <section>
+          <h6><strong>TOP STORIES</strong></h6>
+          <div class="image-text">
+            <div class="card-title p-2 m-0"><strong>POLITICS</strong></div>
+            <img
+              src="https://d.newsweek.com/en/full/1565324/mitt-romney-votes-convict-trump-impeachment.jpg?w=591&h=364&f=71f8b70ee3bdac54e0a9721503a9eadf"
+              alt="Fires-img" class="img-fluid">
+          </div>
+          <p class="cardtext">
+            <a class="stretched-link text-reset" style="position: relative;" href="#">
+              <strong>Senate Votes to Acquit Trump in Split Vote With Romney as Sole Defector</strong>
+            </a>
+          </p>
+          <p class="cardtext">
+            The GOP senator is the first senator in the history of the United States to vote for the impeachment of a president from
+            the lawmaker's own party.
+          </p>
+        </section>
+      </section>
+      <!-- Right-section -->
+      <section class="col pl-0 right-section">
+        <h6><strong>OPINION</strong></h6>
+        <section >
+          <div class="row d-flex align-items-center border-bottom pb-2">
+            <div class="col-3 text-left">
+              <img src="https://d.newsweek.com/en/full/1561683/doug-gordon.png?w=63&h=63&f=2ee0e0bead2b09866ef97374e69a1501" alt="Doug Gordon">
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <a class="main-opinion-a" href="#">
+                  <strong>Republicans Have Just Green-Lit Open Season on Our Elections</strong>
+                </a>
+              </div>
+              <div class="row">
+                By Doug Gordon
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt-2">
+          <div class="row d-flex align-items-center border-bottom pb-2">
+            <div class="col-3 text-left">
+              <img src="https://d.newsweek.com/en/full/110837/brian-l-ott.png?w=63&h=63&f=8f7423328b452c34271b5bc77258e7f1"
+                alt="Brian L. Ott">
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <a class="main-opinion-a" href="#">
+                  <strong>The Acquittal of Donald Trump Is Brought to You by Fox News</strong>
+                </a>
+              </div>
+              <div class="row">
+                By Brian L. Ott
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt-2">
+          <div class="row d-flex align-items-center border-bottom pb-2">
+            <div class="col-3 text-left">
+              <img src="https://d.newsweek.com/en/full/1565352/aimee-allison.png?w=63&h=63&f=d992b291970adc50b2ef89b19cf632fa"
+                alt="Aimee Allison">
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <a class="main-opinion-a" href="#">
+                  <strong>After Iowa's Debacle, Focus on Women of Color to Fix the Primary System</strong>
+                </a>
+              </div>
+              <div class="row">
+                By Aimee Allison
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt-2">
+          <div class="row d-flex align-items-center border-bottom pb-2">
+            <div class="col-3 text-left">
+              <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77"
+                alt="Aimee Allison">
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <a class="main-opinion-a" href="#">
+                  <strong>Bye-Bye, Biden. Hello, Bloomberg. And Welcome, Brokered Convention</strong>
+                </a>
+              </div>
+              <div class="row">
+                By Newt Gingrich
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt-2">
+          <div class="row d-flex align-items-center border-bottom pb-2">
+            <div class="col-3 text-left">
+              <img
+                src="https://d.newsweek.com/en/full/1565379/starane-shepherd.png?w=63&h=63&f=d9fd971db4e47b05bd478edc62071b9d"
+                alt="Starane Shepherd">
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <a class="main-opinion-a" href="#">
+                  <strong>Trump Is Wrong. U.S. Troops' Traumatic Brain Injuries Are Incredibly Serious</strong>
+                </a>
+              </div>
+              <div class="row">
+                By Starane Shepherd
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pt-2">
+          <div class="row d-flex align-items-center border-bottom pb-2">
+            <div class="col-3 text-left">
+              <img
+                src="https://d.newsweek.com/en/full/1565298/mark-barden.png?w=63&h=63&f=c3726ecdad383c057de4959fda8e3c42"
+                alt="Mark Barden">
+            </div>
+            <div class="col-9">
+              <div class="row">
+                <a class="main-opinion-a" href="#">
+                  <strong>Seven Years After My Son Died at Sandy Hook, the Senate Is Still Stalling</strong>
+                </a>
+              </div>
+              <div class="row">
+                By Mark Barden
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
 </body>
 </html>
