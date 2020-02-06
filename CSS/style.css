@@ -67,7 +67,7 @@ h6 {
   display: inline-block;
 }
 
-.card-title {
+.politics-card-title {
   position: absolute;
   color: #f72210;
   left: 0;
@@ -85,7 +85,9 @@ h6 {
   text-decoration: none;
 }
 
-.right-section h6 {
+.right-section h6,
+.culture-travel img,
+.culture-travel h6 {
   cursor: pointer;
 }
 
