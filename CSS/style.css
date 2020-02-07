@@ -5,7 +5,7 @@
 
 div,
 p {
-  line-height: 17px;
+  line-height: 15px;
 }
 
 body {
@@ -113,7 +113,8 @@ h6 {
 .right-section h6,
 img,
 .culture-travel h6,
-.more-stories h6 {
+.more-stories h6,
+.sec-title {
   cursor: pointer;
 }
 
