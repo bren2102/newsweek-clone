@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Newsweek</title>
-  <link rel="stylesheet" type="text/css" href="CSS/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="container">
@@ -65,17 +65,18 @@
       </li>
       <li class="nav-item border-right-0">
         <form class="form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"  style="width: 90px; font-size: 12px;">
         </form>
       </li>
     </ul>
   </nav>
 
   <main class="container p-0">
-  <div class="container mt-3 bg-white" style="line-height: unset;">
-      <div class="row justify-content-between">
+    <!-- Top-Container -->
+    <div class="container pt-3 bg-white top-main" style="line-height: unset;">
+      <div class="row justify-content-between align-items-start">
         <!-- Left-Section -->
-        <section class="col pr-0 sticky">
+        <section class="col pr-0 left-section">
           <h6><strong>FEATURED STORIES</strong></h6>
           <section>
             <div class="image-text">
@@ -134,7 +135,7 @@
               results showed him just ahead of Senator Bernie Sanders.
             </p>
           </section>
-          <section>
+          <section class="pt-2">
             <div class="image-text">
               <div class="card-title p-2 m-0 politics-card-title"><strong>TECH & SCIENCE</strong></div>
               <img
@@ -153,7 +154,7 @@
           </section>
         </section>
         <!-- Middle-Section -->
-        <section class="col-5">
+        <section class="col-5 middle-section">
           <section class="col">
             <h6><strong>TOP STORIES</strong></h6>
             <div class="image-text">
@@ -162,7 +163,7 @@
                 src="https://d.newsweek.com/en/full/1565324/mitt-romney-votes-convict-trump-impeachment.jpg?w=591&h=364&f=71f8b70ee3bdac54e0a9721503a9eadf"
                 alt="Fires-img" class="img-fluid">
             </div>
-            <p class="cardtext">
+            <p class="cardtext pt-2">
               <a class="stretched-link text-reset" style="position: relative;" href="#">
                 <strong>Senate Votes to Acquit Trump in Split Vote With Romney as Sole Defector</strong>
               </a>
@@ -183,7 +184,7 @@
                   </h6>
                   <p class="card-text text-muted">Though Jamaican artists have been pigeon-holed or marginalized, they're finally taking off stateside. Meet Koffee, the
                   first female artist to take home the Grammy for best reggae album—at 19 years old.</p>
-                  <button type="button" class="btn btn-secondary p-0 text-dark" style="width: 5rem;">Music</button>
+                  <button type="button" class="btn btn-culture-travel p-0 text-muted" style="width: 5rem;">Music</button>
                 </div>
               </div>
               <div class="col card border-0">
@@ -196,7 +197,7 @@
                   </h6>
                   <p class="card-text text-muted">Looking to up the ante on your next adventure? Here are some extreme vacations that will stimulate thrill seekers
                   cerebral and physical predilections for danger, risk and fantasy.</p>
-                  <button type="button" class="btn btn-secondary p-0 text-dark" style="width: 5rem;">Travel</button>
+                  <button type="button" class="btn btn-culture-travel p-0 text-muted" style="width: 5rem;">Travel</button>
                 </div>
               </div>
             </section>
@@ -211,7 +212,7 @@
                   </h6>
                   <p class="card-text text-muted">If you are thinking about canceling a trip, or planning on continuing a trip to a country affected by the coronavirus,
                   here's everything you need to know.</p>
-                  <button type="button" class="btn btn-secondary p-0 text-dark" style="width: 5rem;">Travel</button>
+                  <button type="button" class="btn btn-culture-travel p-0 text-muted" style="width: 5rem;">Travel</button>
                 </div>
               </div>
               <div class="col card border-0 pt-1">
@@ -224,7 +225,7 @@
                   </h6>
                   <p class="card-text text-muted">Curtains that won't shut? Noisy hallway? The Benjamin Hotel's sleep expert shares the secrets of how to sleep better
                   when you're away from home.</p>
-                  <button type="button" class="btn btn-secondary p-0 text-dark" style="width: 5rem;">Travel</button>
+                  <button type="button" class="btn btn-culture-travel p-0 text-muted" style="width: 5rem;">Travel</button>
                 </div>
               </div>
             </section>          
@@ -446,7 +447,7 @@
           </section>
         </section>
         <!-- Right-section -->
-        <section class="col pl-0 right-section sticky">
+        <section class="col pl-0 right-section">
           <section>
             <h6><strong>OPINION</strong></h6>
             <section>
@@ -670,8 +671,46 @@
               </div>
             </section>
           </section>
+          <section class="container p-4 bg-light">
+            <div class="row p-4">
+              <div class="d-flex col-1 bg-danger justify-content-center">
+                <img class="border-0" style="width: 30px;" src="https://g.newsweek.com/www/images/logo-n1.svg">
+              </div>
+              <div class="col main-opinion-a-newsletter main-sign-up">
+                Sign up for our Newsletter
+              </div>
+            </div>
+            <div class="row pl-4 pt-0">
+              <button type="button" class="btn btn-secondary pr-0 pt-0 pb-0 d-flex align-items-center justify-content-center" style="width: 7rem;">
+                SIGN UP
+                <i class="material-icons">keyboard_arrow_right</i>
+              </button>
+            </div>
+            <div class="rowp-4 pl-3 pt-2">
+              <a class="main-opinion-a-newsletter" href="#">
+                <strong>Update your preferences »</strong>
+              </a>
+            </div>
+          </section>
         </section>
       </div>
+    </div>
+
+    <div class="container pt-3 bg-white main-main" style="line-height: unset;">
+      <section class="col-4 left-main-main-section pl-0">
+        <div class="image-text">
+          <div class="card-title p-2 m-0 politics-card-title">
+            <strong>FEBRUARY 07 ISSUE</strong>
+          </div>
+          <img
+            src="https://d.newsweek.com/en/full/1563281/february-7-2020-cover.jpg?w=360&h=480&q=90&f=d37f7fd6c50d6086e1ce094184137c70"
+            alt="Best of CES 2020" class="img-fluid">
+        </div>
+        <div>
+          
+        </div>
+      </section>
+      <section class="col right-main-main-section"></section>
     </div>
   </main>
 </body>
