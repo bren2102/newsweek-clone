@@ -105,7 +105,6 @@ h6 {
   font-weight: bold;
 }
 
-
 .main-opinion-a:hover {
   color: #ff0500;
   text-decoration: none;
@@ -125,7 +124,28 @@ img,
 .right-section,
 .left-section {
   position: sticky;
-  top: -200%;
+  top: -140%;
+}
+
+.aside-left-main-main {
+  background-color: #f4f5f6;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.n-title-left {
+  background-color: #f72210;
+  color: white;
+}
+
+.n-title-right {
+  color: #f72210;
+}
+
+.n-title-right:hover {
+  color: #f72210;
+  cursor: pointer;
 }
 
 /* Main ends */
