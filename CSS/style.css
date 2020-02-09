@@ -85,6 +85,10 @@ footer p {
   color: #a0a0a0;
 }
 
+.img-thumbnail {
+  width: 100%;
+}
+
 footer li {
   font-size: 12px;
 }
@@ -180,11 +184,12 @@ img,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100%;
 }
 
 /* Main ends */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 767px) {
   /* Header starts */
   header {
     width: 100%;
@@ -209,7 +214,7 @@ img,
   /* Header ends */
 }
 
-@media only screen and (min-width: 577px) and (max-width: 1000px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   header {
     width: 100%;
     margin: 0 auto;
@@ -217,6 +222,10 @@ img,
     background-color: #ff0500;
     color: white;
     padding: 10px;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
   }
 
   .header-logo {
@@ -229,6 +238,10 @@ img,
     display: inline-block;
     width: 30px;
   }
+/*
+  .right-section,
+  .left-section {
+    position: sticky;
+    top: -140%;
+  }*/
 }
-
-/* A partir de 1000 para abajo, desaparece el navbar  */

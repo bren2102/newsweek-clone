@@ -9,8 +9,10 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="CSS/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+    integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
 </head>
-<body class="container">
+<body>
   <header class="d-flex justify-content-between flex-fill align-items-end">
     <div class="header-date d-none d-lg-block">
       Wed, Feb 05, 2020
@@ -19,7 +21,7 @@
     </div>
     <div class="header-buttons d-flex align-items-center">
       <button class="border-0">SIGN IN</button>
-      <button class="d-inline-flex border border-white subs-button bg-white">SUSBSCRIBE 
+      <button class="d-inline-flex border border-white subs-button bg-white align-items-center">SUSBSCRIBE 
         <i class="material-icons">keyboard_arrow_right</i>
       </button>
       <a class="nav-link text-reset pl-0 d-flex d-lg-none align-items-center" href="#">
@@ -71,12 +73,12 @@
     </ul>
   </nav>
 
-  <main class="container p-0">
+  <main class="container-fluid bg-white">
     <!-- Top-Container -->
-    <div class="container pt-3 bg-white top-main" style="line-height: unset;">
+    <div class="pt-3 bg-white top-main" style="line-height: unset;">
       <div class="row justify-content-between align-items-start">
         <!-- Left-Section -->
-        <section class="col pr-0 left-section">
+        <section class="d-none d-md-block col-lg col-md-5 left-section">
           <h6><strong>FEATURED STORIES</strong></h6>
           <section>
             <div class="image-text">
@@ -154,7 +156,7 @@
           </section>
         </section>
         <!-- Middle-Section -->
-        <section class="col-5 middle-section">
+        <section class="col-lg-5 col-md-7 middle-section">
           <section class="col top-story">
             <h6><strong>TOP STORIES</strong></h6>
             <div class="image-text">
@@ -173,7 +175,7 @@
               the lawmaker's own party.
             </p>
           </section>
-          <section class="col culture-travel">
+          <section class="col culture-travel d-none d-md-block ">
             <h6 class="pl-2"><strong>CULTURE & TRAVEL</strong></h6>
             <section class="row">
               <div class="col card border-0">
@@ -447,15 +449,15 @@
           </section>
         </section>
         <!-- Right-section -->
-        <section class="col pl-0 right-section">
-          <section class="opinion-section">
+        <section class="col right-section">
+          <section class="opinion-section d-none d-md-block">
             <h6><strong>OPINION</strong></h6>
             <section>
-              <div class="row d-flex align-items-center border-bottom pb-2">
-                <div class="col-3 text-left">
+              <div class="row d-flex align-items-center border-bottom pb-2 pr-2">
+                <div class="col-lg-3 col-md-2 text-left">
                   <img src="https://d.newsweek.com/en/full/1561683/doug-gordon.png?w=63&h=63&f=2ee0e0bead2b09866ef97374e69a1501" alt="Doug Gordon">
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Republicans Have Just Green-Lit Open Season on Our Elections</strong>
@@ -468,12 +470,12 @@
               </div>
             </section>
             <section class="pt-2">
-              <div class="row d-flex align-items-center border-bottom pb-2">
-                <div class="col-3 text-left">
+              <div class="row d-flex align-items-center border-bottom pb-2 pr-2">
+                <div class="col-lg-3 col-md-2 text-left">
                   <img src="https://d.newsweek.com/en/full/110837/brian-l-ott.png?w=63&h=63&f=8f7423328b452c34271b5bc77258e7f1"
                     alt="Brian L. Ott">
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>The Acquittal of Donald Trump Is Brought to You by Fox News</strong>
@@ -486,12 +488,12 @@
               </div>
             </section>
             <section class="pt-2">
-              <div class="row d-flex align-items-center border-bottom pb-2">
-                <div class="col-3 text-left">
+              <div class="row d-flex align-items-center border-bottom pb-2 pr-2">
+                <div class="col-lg-3 col-md-2 text-left">
                   <img src="https://d.newsweek.com/en/full/1565352/aimee-allison.png?w=63&h=63&f=d992b291970adc50b2ef89b19cf632fa"
                     alt="Aimee Allison">
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>After Iowa's Debacle, Focus on Women of Color to Fix the Primary System</strong>
@@ -505,11 +507,11 @@
             </section>
             <section class="pt-2">
               <div class="row d-flex align-items-center border-bottom pb-2">
-                <div class="col-3 text-left">
+                <div class="col-lg-3 col-md-2 text-left">
                   <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77"
                     alt="Aimee Allison">
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Bye-Bye, Biden. Hello, Bloomberg. And Welcome, Brokered Convention</strong>
@@ -523,12 +525,12 @@
             </section>
             <section class="pt-2">
               <div class="row d-flex align-items-center border-bottom pb-2">
-                <div class="col-3 text-left">
+                <div class="col-lg-3 col-md-2 text-left">
                   <img
                     src="https://d.newsweek.com/en/full/1565379/starane-shepherd.png?w=63&h=63&f=d9fd971db4e47b05bd478edc62071b9d"
                     alt="Starane Shepherd">
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Trump Is Wrong. U.S. Troops' Traumatic Brain Injuries Are Incredibly Serious</strong>
@@ -541,13 +543,13 @@
               </div>
             </section>
             <section class="pt-2">
-              <div class="row d-flex align-items-center pb-2">
-                <div class="col-3 text-left">
+              <div class="row d-flex align-items-center pb-2 pr-2">
+                <div class="col-lg-3 col-md-2 text-left">
                   <img
                     src="https://d.newsweek.com/en/full/1565298/mark-barden.png?w=63&h=63&f=c3726ecdad383c057de4959fda8e3c42"
                     alt="Mark Barden">
                 </div>
-                <div class="col-9">
+                <div class="col-lg-9 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Seven Years After My Son Died at Sandy Hook, the Senate Is Still Stalling</strong>
@@ -564,10 +566,10 @@
             <h6><strong>LATEST NEWS</strong></h6>
             <section>
               <div class="row d-flex align-items-center border-bottom pb-2 pr-2">
-                <div class="col-5 text-left">
+                <div class="col-lg-5 col-md-2 text-left">
                   <img src="https://d.newsweek.com/en/full/1564617/afghanistan-khost-province-us-military-helicopter.jpg?w=397&h=265&f=e6e92e04f081125f5726653f58fe7fbe" class="img-thumbnail border-0" alt="Doug Gordon">
                 </div>
-                <div class="col">
+                <div class="col-lg-7 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Exclusive: U.S. Citizen Kidnapped By Taliban Group in Afghanistan</strong>
@@ -578,12 +580,12 @@
             </section>
             <section>
               <div class="row d-flex align-items-center border-bottom pt-2 pb-2 pr-2">
-                <div class="col-5 text-left">
+                <div class="col-lg-5 col-md-2 text-left">
                   <img
                     src="https://d.newsweek.com/en/full/1565420/iowareporterapp.jpg?w=397&h=265&f=385ccb9c544927b7f2b04455ce3e5e8d"
                     class="img-thumbnail border-0" alt="Iowa App">
                 </div>
-                <div class="col">
+                <div class="col-lg-7 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Iowa Caucus App Could Be Hacked to Change Vote Totals: Report</strong>
@@ -594,12 +596,12 @@
             </section>
             <section>
               <div class="row d-flex align-items-center border-bottom pt-2 pb-2 pr-2">
-                <div class="col-5 text-left">
+                <div class="col-lg-5 col-md-2 text-left">
                   <img
                     src="https://d.newsweek.com/en/full/1565411/trump.jpg?w=397&h=265&f=707670fecd6951602756b890dab5b6f6"
                     class="img-thumbnail border-0" alt="Iowa App">
                 </div>
-                <div class="col">
+                <div class="col-lg-7 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Senators Who Voted to Convict Trump Represent 18 Million More Americans</strong>
@@ -610,11 +612,11 @@
             </section>
             <section>
               <div class="row d-flex align-items-center border-bottom pt-2 pb-2 pr-2">
-                <div class="col-5 text-left">
+                <div class="col-lg-5 col-md-2 text-left">
                   <img src="https://d.newsweek.com/en/full/1565303/peter-weber.jpg?w=397&h=265&l=0&t=0&f=1b3c970ba49e19914abc99af1bcb6b02"
                     class="img-thumbnail border-0" alt="Bachelor">
                 </div>
-                <div class="col">
+                <div class="col-lg-7 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>'Bachelor' Final Four, Final Two Spoilers Revealed</strong>
@@ -625,12 +627,12 @@
             </section>
             <section>
               <div class="row d-flex align-items-center border-bottom pt-2 pb-2 pr-2">
-                <div class="col-5 text-left">
+                <div class="col-lg-5 col-md-2 text-left">
                   <img
                     src="https://d.newsweek.com/en/full/1565416/xfl.jpg?w=397&h=265&f=f1a0b1f7757b62f7f73fdefcac015935"
                     class="img-thumbnail border-0" alt="XFL">
                 </div>
-                <div class="col">
+                <div class="col-lg-7 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>XFL Has Unusual Rules For Football Purists</strong>
@@ -641,11 +643,11 @@
             </section>
             <section>
               <div class="row d-flex align-items-center border-bottom pt-2 pb-2 pr-2">
-                <div class="col-5 text-left">
+                <div class="col-lg-5 col-md-2 text-left">
                   <img src="https://d.newsweek.com/en/full/1565282/are-married-first-sight-season-10-couples-ready-babies-already.png?w=397&h=265&f=3bce65f4d1e8092e9104e805f71204e2"
                     class="img-thumbnail border-0" alt="Married">
                 </div>
-                <div class="col">
+                <div class="col-lg-7 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Are 'Married at First Sight' Season 10 Couples Ready For Babies Already?</strong>
@@ -656,12 +658,12 @@
             </section>
             <section>
               <div class="row d-flex align-items-center pt-2 pb-2 pr-2">
-                <div class="col-5 text-left">
+                <div class="col-lg-5 col-md-2 text-left">
                   <img
                     src="https://d.newsweek.com/en/full/1565407/republicans-come-romneys-support-after-impeachment.jpg?w=397&h=265&f=283ef347db67f08976b633d8ccbe8611"
                     class="img-thumbnail border-0" alt="Republicans Rally">
                 </div>
-                <div class="col">
+                <div class="col-lg-7 col-md-10">
                   <div class="row">
                     <a class="main-opinion-a" href="#">
                       <strong>Republicans Rally Around Mitt Romney After Calls for His Expulsion from GOP</strong>
@@ -697,12 +699,12 @@
     </div>
     
     <!-- N-In-The-Magazine -->
-    <div class="container pt-2 bg-white main-main">
+    <div class="pt-2 bg-white main-main">
       <div class="row">
         <div class="col-3">
-          <section class="row">
+          <section>
             <div class="image-text">
-              <div class="card-title p-2 m-0 politics-card-title">
+              <div class="card-title p-2 politics-card-title">
                 <strong>FEBRUARY 07 ISSUE</strong>
               </div>
               <img
@@ -774,7 +776,7 @@
         </div>
       </div>
       <div class="row">
-        <section class="col pl-0">
+        <section class="col">
           <div class="magazine-cover">
             <img src="https://d.newsweek.com/en/full/1563948/united.jpg?w=466&h=311&q=90&f=b080d82c464d309edc702183a4f7a9b3"
               alt="Iowa" class="img-fluid" style="height: 200px;">
@@ -837,7 +839,7 @@
     </div>
 
     <!-- N-Editors-Pick -->
-    <div class="container pt-2 bg-white editors-pick-main">
+    <div class=" pt-2 bg-white editors-pick-main">
       <section class="d-flex row justify-content-center align-items-center border-bottom pb-2 mb-2">
         <div class="d-flex col-1 bg-danger justify-content-center p-0">
           <img class="border-0" style="width: 30px;" src="https://g.newsweek.com/www/images/logo-n1.svg">
@@ -978,7 +980,7 @@
     </div>
 
     <!-- N-Featured-Section -->
-    <div class="container pt-2 bg-white slideshows-main">
+    <div class="pt-2 bg-white slideshows-main">
       <section class="d-flex row justify-content-center align-items-center border-bottom pb-2 mb-2">
         <div class="d-flex col-1 bg-danger justify-content-center p-0">
           <img class="border-0" style="width: 30px;" src="https://g.newsweek.com/www/images/logo-n1.svg">
@@ -1069,7 +1071,7 @@
     </div>
 
     <!-- News -->
-    <div class="container pt-2 bg-white news-main">
+    <div class="pt-2 bg-white news-main">
       <h6 class="n-title-right border-top pt-2"><strong>WORLD</strong></h6>
       <div class="row">
         <section class="col">
@@ -1149,7 +1151,7 @@
     </div>
 
     <!-- World -->
-    <div class="container pt-2 bg-white world-main">
+    <div class="pt-2 bg-white world-main">
       <h6 class="n-title-right border-top pt-2"><strong>U.S.</strong></h6>
       <div class="row">
         <section class="col">
@@ -1229,7 +1231,7 @@
     </div>
 
     <!-- Business -->
-    <div class="container pt-2 bg-white business-main">
+    <div class="pt-2 bg-white business-main">
       <h6 class="n-title-right border-top pt-2"><strong>BUSINESS</strong></h6>
       <div class="row">
         <section class="col">
@@ -1309,7 +1311,7 @@
     </div>
 
     <!-- Tech-Science -->
-    <div class="container pt-2 bg-white t-s-main">
+    <div class="pt-2 bg-white t-s-main">
       <h6 class="n-title-right border-top pt-2"><strong>TECH & SCIENCE</strong></h6>
       <div class="row">
         <section class="col">
@@ -1389,7 +1391,7 @@
     </div>
 
     <!-- Culture -->
-    <div class="container pt-2 bg-white culture-main">
+    <div class="pt-2 bg-white culture-main">
       <h6 class="n-title-right border-top pt-2"><strong>CULTURE</strong></h6>
       <div class="row">
         <section class="col">
@@ -1469,7 +1471,7 @@
     </div>
 
     <!-- Sports -->
-    <div class="container pt-2 bg-white culture-main">
+    <div class="pt-2 bg-white culture-main">
       <h6 class="n-title-right border-top pt-2"><strong>SPORTS</strong></h6>
       <div class="row">
         <section class="col">
@@ -1550,7 +1552,7 @@
     </div>
     
     <!-- Newsletter -->
-    <div class="container bg-white newsletter-magazines pt-2 pb-2 border-bottom">
+    <div class="bg-white newsletter-magazines pt-2 pb-2 border-bottom">
       <div class="row">
         <div class="col-8 ">
           <h6>SUBSCRIBE</h6>
@@ -1561,7 +1563,7 @@
       </div>
       <div class="row">
         <section class="col-8">
-          <div class="d-flex row pl-4 align-items-center">
+          <div class="d-flex row pl-4 align-items-center bg-light ml-0 mr-0 pt-4 pb-4">
             <div class="col-3">
               <img src="https://d.newsweek.com/en/full/1564924/february-14-2020-cover.jpg?w=170&q=95&f=c1d5601167747525a4d15e56749350ec" alt="book-img">
             </div>
@@ -1577,8 +1579,8 @@
             </div>
           </div>
         </section>
-        <section class="col border">
-          <div class="row d-flex">
+        <section class="col border align-items-center">
+          <div class="row" style="height: 100%;">
             <div class="col nmag-img">
             </div>
             <div class="col">
@@ -1596,20 +1598,27 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container border-0 bg-white">
-      <div class="row  ">
-        <div class="border-bottom border-top p-2">
-          <img src="http://newsroom.mattressfirm.com/wp-content/uploads/2018/01/Newsweek-Logo-1000x.jpg?x91843"
-           alt="footer-logo" class="img-fluid" style="width: 250px;">
+    <footer class="border-0 bg-white">
+      <div class="row d-flex border-bottom align-items-center justify-content-between mr-2">
+        <div class=" border-top p-2">
+          <img src="http://newsroom.mattressfirm.com/wp-content/uploads/2018/01/Newsweek-Logo-1000x.jpg?x91843" alt="footer-logo"
+            class="img-fluid align-self-end" style="width: 250px;">
           © 2020 Newsweek
+        </div>
+        <div>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-tumblr"></i>
+          <i class="fab fa-linkedin-in"></i>
         </div>
       </div>
       <div class="row">
-        <div>
-          <p>Editions:</p>
+        <div class="d-flex align-items-center justify-content-center">
+          <p class="ml-2 mb-0 pl-2">Editions:</p>
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link text-reset" href="#">U.S. Edition</a>
+              <a class="nav-link text-reset pl-2" href="#">U.S. Edition</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-reset pl-0" href="#">日本</a>
@@ -1625,10 +1634,10 @@
             </li>
           </ul>
         </div>
-        <div>
-          <ul class="nav">
+        <div class="">
+          <ul class="nav d-flex justify-content-start">
             <li class="nav-item">
-              <a class="nav-link text-reset" href="#">About Us</a>
+              <a class="nav-link text-reset ml-2 pl-2" href="#">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-reset pl-0" href="#">Corrections</a>
