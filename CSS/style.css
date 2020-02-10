@@ -193,7 +193,7 @@ img,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 275px;
+  height: 400px;
   width: 100%;
 }
 
@@ -272,5 +272,4 @@ img,
   .right-section {
     position: static;
   }
-
 }
