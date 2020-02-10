@@ -59,6 +59,10 @@ header {
   padding: 0 11px 0 15px;
 }
 
+.invisible {
+  display: none;
+}
+
 /* Header ends */
 
 /* Nav starts */
@@ -89,6 +93,10 @@ footer p {
   width: 100%;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 footer li {
   font-size: 12px;
 }
@@ -100,6 +108,7 @@ footer li:hover {
 .image-text {
   position: relative;
   display: inline-block;
+  width: 100%;
 }
 
 .politics-card-title {
@@ -148,7 +157,7 @@ img,
 .right-section,
 .left-section {
   position: sticky;
-  top: -140%;
+  top: -1000px;
 }
 
 .aside-left-main-main {
@@ -184,7 +193,18 @@ img,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 100%;
+  height: 275px;
+  width: 100%;
+}
+
+.main-main img,
+.editors-pick-main img {
+  width: 100%;
+  height: auto;
+}
+
+.newsweek-div-new {
+  width: 100%;
 }
 
 /* Main ends */
@@ -209,6 +229,11 @@ img,
   .menu-icon {
     display: inline-block;
     width: 30px;
+  }
+
+  .right-section,
+  .left-section {
+    position: static;
   }
 
   /* Header ends */
@@ -238,10 +263,14 @@ img,
     display: inline-block;
     width: 30px;
   }
-/*
-  .right-section,
+
   .left-section {
     position: sticky;
-    top: -140%;
-  }*/
+    top: -5px;
+  }
+
+  .right-section {
+    position: static;
+  }
+
 }
