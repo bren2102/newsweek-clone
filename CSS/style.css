@@ -157,7 +157,7 @@ img,
 .right-section,
 .left-section {
   position: sticky;
-  top: -1000px;
+  top: 0;
 }
 
 .aside-left-main-main {
