@@ -37,10 +37,6 @@ header button {
   cursor: pointer;
 }
 
-.input, .form-control, .form-inline {
-  width: 11vw;
-}
-
 .newsletter-magazines button {
   color: white;
   background-color: #f72210;
@@ -240,12 +236,11 @@ img,
 }
 
 @media only screen and (min-width: 576px) {
-
- .form-inline .form-control {
-
-   display: inline-block;
-   width: 14vw;
-   vertical-align: middle;}
+  .form-inline .form-control {
+    display: inline-block;
+    width: 14vw;
+    vertical-align: middle;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -334,7 +329,6 @@ img,
     height: 5vw;
     width: 25vw;
   }
-
 
   .menu-icon {
     display: inline-block;
