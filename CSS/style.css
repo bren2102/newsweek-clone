@@ -37,8 +37,8 @@ header button {
   cursor: pointer;
 }
 
-.form-control {
-  width: 12vw;
+.input, .form-control, .form-inline {
+  width: 11vw;
 }
 
 .newsletter-magazines button {
@@ -189,6 +189,13 @@ img,
 .n-title-left {
   background-color: #f72210;
   color: white;
+  font-size: 1.3vw;
+}
+
+.n-title-right {
+  color: #f72210;
+  font-weight: bold;
+  font-size: 1.3vw;
 }
 
 .n-title-right,
@@ -232,6 +239,15 @@ img,
   width: 100%;
 }
 
+@media only screen and (min-width: 576px) {
+
+ .form-inline .form-control {
+
+   display: inline-block;
+   width: 14vw;
+   vertical-align: middle;}
+}
+
 @media only screen and (max-width: 767px) {
   header {
     width: 100%;
@@ -241,6 +257,11 @@ img,
     color: white;
     padding: 10px;
     font-size: 2vw;
+  }
+
+  div,
+  p {
+    line-height: 20px;
   }
 
   .header-logo {
@@ -272,6 +293,18 @@ img,
   .nmag-img {
     height: 150px;
   }
+
+  .n-title-left {
+    background-color: #f72210;
+    color: white;
+    font-size: 16px;
+  }
+
+  .n-title-right {
+    color: #f72210;
+    font-weight: bold;
+    font-size: 16px;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
@@ -288,6 +321,11 @@ img,
     z-index: 100;
   }
 
+  div,
+  p {
+    line-height: 20px;
+  }
+
   .header-icons {
     display: none;
   }
@@ -296,6 +334,7 @@ img,
     height: 5vw;
     width: 25vw;
   }
+
 
   .menu-icon {
     display: inline-block;
@@ -310,4 +349,15 @@ img,
   .right-section {
     position: static;
   }
+
+  .n-title-left {
+    background-color: #f72210;
+    color: white;
+    font-size: 1.4vw;
+  }
+
+  .n-title-right {
+    color: #f72210;
+    font-weight: bold;
+    font-size: 1.4vw;
 }
